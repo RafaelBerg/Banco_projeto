@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&family=Sora:wght@500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    font-family: 'Sora', sans-serif;
+}
+
+
+
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+
+    /* fundo borrado*/
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    background-color: rgba(128, 123, 123, 0.082);
+    padding: 2px;
+    border: 1px dotted white;
+}
+
+ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.botoes{
+    margin: 0px;
+    padding: 10px;
+}
+
+.btn_1{
+    border: 2px solid rgba(114, 113, 113, 0.685);
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.btn_1:hover{
+    border: 3px solid #f3c9f1;
+    padding: 7px 20px;
+    margin: 100% 8.5px;
+    font-size: 14px;
+    transition: 0.1s all;
+}
+
+.btn_2{
+    background: black;
+    border-radius: 15px;
+    padding: 11px 25px;
+    color: white;
+}
+
+.btn_2:hover{
+    padding: 9px 21px;
+    margin: 100% 7.7px;
+    font-size: 14px;
+    transition: 0.1s all;
+}
+
+.navbar:hover{
+    color: #f3c9f1;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 1.6px;
+}
+
+
+
+.logo{
+    margin: 0px 9px;
+}
+
+.logo:hover{    
+    border: 2px solid grey;
+    padding: 5px 5px 1px 5px;
+    border-radius: 20px;
+    margin: 0px 2px;
+    margin-bottom: 4px;
+}
+
+

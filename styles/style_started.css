@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    display: flex;
+
+}
+
+#tela-img{
+    width: 210vh;
+    height: 100vh;
+    z-index: 0;
+}
+
+main{
+    width: 250vh;
+    height: 100vh; 
+    border-left: 1px solid rgba(128, 128, 128, 0.315);
+    /* fundo borrado */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.493);
+    box-shadow: 6px 6px 3px #d8d2dd;
+}
+
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    margin: 105px 0px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#menu-texto{
+    margin-left: 140px;
+}
+
+h1{
+    font-size: 37px;
+    letter-spacing:0.3px;
+}
+
+#menu-texto>p{
+    margin-left: 1.6px;
+    color: rgba(133, 129, 129, 0.856);
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+p{
+    font-size: 20px;
+
+}
+
+p>a{
+    margin-left: 4px;
+    color: #ff705f;
+}
+
+.btn_login{
+    box-shadow: 3px 3px 4px #d8d2dd;
+    border-top: 1px solid rgba(128, 128, 128, 0.219);
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+    border-radius: 4px;
+    padding: 15px 22px;
+    font-size: 15px;
+}
+
+.btn_login:hover{
+    padding: 12px 17.8px;
+    margin: 100% 9px;
+    font-size: 14px;
+    transition: 0.1s all;
+}
+
+.btn_login_2{
+    box-shadow: 3px 3px 4px #d8d2dd;
+    border-top: 1px solid rgba(128, 128, 128, 0.219);
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+    border-radius: 4px;
+    padding: 15px 22px;
+    font-size: 15px;
+    background-color: #4c66a5;
+    color: white;
+    font-weight: 500;
+}
+
+.btn_login_2:hover{
+    padding: 12px 17px;
+    margin: 100% 10.4px;
+    font-size: 14px;
+    transition: 0.1s all;
+}
+
+.image{
+    max-width: 13px;
+    padding-right: 15px;
+    align-self: center;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.login-input, .senha-input{
+    box-shadow: 3px 3px 4px #d8d2dd;
+    border: 1px white solid;
+    width: 470px;  
+    padding: 10px 5px;
+    border-radius: 3px;
+    border-top: 1px solid rgba(128, 128, 128, 0.219);
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+    margin-bottom: 20px;
+}
+
+.senha-input{
+    margin-bottom: 10px;
+}
+
+#login-div>p, span{
+    font-size: 14px;
+    font-weight: 800;
+    color: rgb(112, 109, 109);
+    margin: 5px;
+    margin-bottom: 3px;
+}
+
+span{
+    margin: 0px;
+}
+
+#chec{
+    box-shadow: 0px 0px 0px white;
+    border: 0px;
+    width: 13px;  
+    padding: 0px;
+
+    margin-left: 6px;
+    margin-bottom: 20px;
+
+}
+
+#submit-botao{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    background: #ff705f;
+    width: 482px;
+}
+
+
+
+/* IMAGENS */
+
+#imagens{
+    position: relative;
+    bottom: -495px;
+    left: 100px;
+
+}
+
+
+#boneco{  
+    height: 510px;
+    position: absolute;
+    right: 205px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+#c1{
+    height: 220px;
+    position: absolute;
+    right: 200px;
+    bottom: 50px;
+    z-index: 2;
+}
+
+#c2{
+    height: 130px;
+    right: 210px;
+    bottom: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
+#c3{
+    height: 60px;
+    right: 270px;
+    bottom: 356px;
+    position: absolute;
+    z-index: 2;
+}

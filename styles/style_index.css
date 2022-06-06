@@ -1,0 +1,95 @@
+html, body{
+    height: 100%;
+}
+
+/* no navbar */
+
+/* Fim do cabeçalho */
+
+
+/* Main */
+main{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-left: 90px;
+
+}
+
+/* -----------Primeira parte----------- */
+h1{
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 54px;
+    line-height: 60px;
+}
+
+p{
+    margin-top: 10px;
+    line-height: 30px;
+    color: #a9a9a9;
+}
+
+#principal{
+    margin-top: 10px;
+}
+
+#btn-final{
+    display: inline-block;
+    border: 3px solid white;
+    background-image: linear-gradient(to right,#FDD3D5,#F0C3FE, #DBEEFF);
+    padding: 15px 35px;
+    border-radius: 15px;
+    box-shadow: 8px 10px 5px #f2e6fd;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 18px;
+    margin: 40px 0px 20px 0px;
+}
+
+#btn-final:hover{
+    font-size: 17px;
+    padding: 12px 30px;
+    margin: 44px 0px 20px 9px;
+    box-shadow: 6px 8px 3px #f2e6fd;
+    transition: 0.3s all;
+}
+/* -----------Fim da primeira parte----------- */
+
+
+/* -----------Imagens----------- */
+#imagens{
+    position: relative;
+    bottom: -65px;
+    left: 110px;
+}
+
+#boneco{  
+    height: 510px;
+    position: absolute;
+    right: 205px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+#c1{
+    height: 220px;
+    position: absolute;
+    right: 200px;
+    bottom: 50px;
+    z-index: 2;
+}
+
+#c2{
+    height: 130px;
+    right: 210px;
+    bottom: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
+#c3{
+    height: 60px;
+    right: 270px;
+    bottom: 356px;
+    position: absolute;
+    z-index: 2;
+}
