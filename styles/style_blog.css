@@ -1,0 +1,49 @@
+table{
+    margin-left: 250px;
+    width: 840px;
+    margin-top: 85px;
+    border-radius: 20px;
+
+}
+td{
+    padding-left: 25px;
+}
+#imagem{
+    width: 220px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 17px 0px rgba(50, 50, 50, 0.22);
+}
+
+#beneficio{
+    width: 270px;
+}
+
+.painel{
+    width: 357px;
+    height: 140px;
+    /*border: 1px solid red;*/
+    border-radius: 15px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    transition: all 0.3s ease-out;
+    
+}
+.painel:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+
+.notice{
+    padding-left: 14px;
+    padding-top: 4px;
+    padding-bottom:4px ;
+    padding-right: 6px;
+}
+
+.espaçado{
+    height: 1px;
+}
+
+h3{
+    color: #F3A857;
+}

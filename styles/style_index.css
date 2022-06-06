@@ -1,5 +1,6 @@
 html, body{
     height: 100%;
+    overflow-x: hidden;
 }
 
 /* no navbar */
@@ -56,6 +57,11 @@ p{
 
 
 /* -----------Imagens----------- */
+#imagens-principal{
+    position: relative;
+    left: 60px;
+}
+
 #imagens{
     position: relative;
     bottom: -65px;
