@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&family=Sora:wght@500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: gray;
+    font-family: 'Sora', sans-serif;
+}
+
+h1{
+    color: rgba(0, 0, 0, 0.856);
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 37px;
+    letter-spacing:0.3px;
+}
+
+#menu-texto{
+    margin-top: 80px;
+    margin-left: 85px;
+}
+
+body{
+    display: flex;
+}
+
+main{
+    width: 270vh;
+    height: 100vh; 
+    border-left: 1px solid rgba(128, 128, 128, 0.315);
+    /* fundo borrado */
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.493);
+    box-shadow: 6px 6px 3px #d8d2dd;
+}
+
+form{
+    display: flex;
+    width: 600px;
+    margin: 0px auto;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px 20px;
+    margin-top: 50px;
+}
+
+#divisor{
+    display: flex;
+    flex-direction: row;
+    gap: 15px 20px;
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+#secund{
+    width: 50%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;  
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-botoes{
+	box-shadow: 3px 3px 4px #d8d2dd;
+    border: 1px white solid;
+    padding: 15px 5px;
+    border-radius: 3px;
+    border-top: 1px solid rgba(128, 128, 128, 0.219);
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+}
+
+#login{
+    margin-bottom: 13px;
+    font-size: 15px;
+}
+
+#submit-cadastro{
+    width: 100%;
+    margin: 0px auto;
+    padding: 12px 0px;
+    border: 1px solid gray;
+    cursor: pointer;
+    background: #ff705f;
+    color: white;
+
+    box-shadow: 3px 3px 4px #d8d2dd;
+    border-top: 1px solid rgba(128, 128, 128, 0.219);
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+}
+
+/* IMAGENS */
+
+#imagens{
+    position: relative;
+    bottom: -495px;
+    left: 100px;
+
+}
+
+
+#boneco{  
+    height: 510px;
+    position: absolute;
+    right: 205px;
+    bottom: 20px;
+    z-index: 1;
+}
+
+#c1{
+    height: 220px;
+    position: absolute;
+    right: 200px;
+    bottom: 50px;
+    z-index: 2;
+}
+
+#c2{
+    height: 130px;
+    right: 210px;
+    bottom: 300px;
+    position: absolute;
+    z-index: 2;
+}
+
+#c3{
+    height: 60px;
+    right: 270px;
+    bottom: 356px;
+    position: absolute;
+    z-index: 2;
+}
+
+#tela-img{
+    width: 210vh;
+    height: 100vh;
+    z-index: 0;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    margin: 105px 0px;
+}

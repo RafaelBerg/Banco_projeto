@@ -3,11 +3,6 @@ html, body{
     overflow-x: hidden;
 }
 
-/* no navbar */
-
-/* Fim do cabeçalho */
-
-
 /* Main */
 main{
     display: flex;
@@ -60,12 +55,14 @@ p{
 #imagens-principal{
     position: relative;
     left: 60px;
+
 }
+
 
 #imagens{
     position: relative;
     bottom: -65px;
-    left: 110px;
+    left: 120px;
 }
 
 #boneco{  

@@ -4,123 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="styles/singup.css">
     <link rel="stylesheet" href="styles/fundo.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/style_cadastro.css">
-    <link rel="shortcut icon" href="imagens/logo 1.png">
 
-    
-    <title>Banco - Cadastro</title>
+    <title>Banco - Sign Up</title>
 </head>
 
 <body>
-    <header>
-        <a class="logo" href="principal.html"><img src="imagens/logo 1.png" alt=""></a>
-        
-        <nav>
-            <ul>
-                <li><a class="navbar" href="work.html">How it work</a></li>
-                <li><a class="navbar" href="">Payment</a></li>
-                <li><a class="navbar" href="">Help</a></li>
-                <li><a class="navbar" href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-
-        <div>
-            <ul>
-                <li class="botoes"><a class="btn_1" href="singup.html">Open your account</a></li>
-                <li class="botoes"><a class="btn_2" href="login.html">Access</a></li>
-            </ul>
+    <div id="tela-img">
+        <a href="principal.html"><img style="margin: 40px;" src="imagens/logo 1.png" alt=""></a>
+        <div id="imagens-principal">
+            
+            <div id="imagens">
+                <img id="boneco" src="imagens/Saly-38.png" alt="">
+                <img id="c1" src="imagens/Other 06.png" alt="">
+                <img id="c2" src="imagens/image 5.png" alt="">
+                <img id="c3" src="imagens/image 4.png" alt="">
+            </div>
         </div>
+    </div>
 
-    </header>
     <main>
-        <table border="0" align="center" width="800">
-            <tr>
-                <th align="center" colspan="3" height="80">
-                    <h1>Crie seu Cadastro</h1>
-                </th>
+        <div>
+            <div id="menu-texto">
+                <h1>Sign up for your free account</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div id="menu-texto">
 
-            </tr>
+            <form action="">
+                <div id="divisor">
+                    <div id="principal">
+                        <input class="form-botoes" type="text" name="" placeholder=" Nome">
 
-            <tr>
-                <td width="400">
-                    <form>
-                        <br>
-                        &nbsp;Nome Completo:<br>
-                        <input class="form-botoes" type="text" name=""  placeholder="Nome Completo"><br>
+                        <input class="form-botoes" type="text" placeholder=" Profissão" name="">
 
-                        &nbsp;Sexo:<br>
-                        <div id="genero">
-                            &nbsp;<input type="radio" name="sexo" id="">&nbsp; Masculino &nbsp;
-                            <input type="radio" name="sexo" id="">&nbsp; Feminino &nbsp;                   
-                            <input type="radio" name="sexo" id="">&nbsp; Outro &nbsp;
+                        <input class="form-botoes" type="date" placeholder="" name="">
+                    </div>
 
-                        </div><br>
+                    <div id="secund">
+                        <input class="form-botoes" type="text" id="campo_rg" placeholder="RG">
+                        
+                        <input class="form-botoes" type="text" id="campo_cpf" placeholder=" CPF">
 
-                        &nbsp;Data Do Nascimento:<br>
-                        <input class="form-botoes" type="date" name=""><br>
-
-                        &nbsp;Profissão:<br>
-                        <input class="form-botoes" type="text" name=""><br>
-
-                        &nbsp;Estado Civil:<br>
-                        <select class="form-botoes" >
-                                <option>Solteiro(a)</option>
-                                <option>Casado(a)</option>
-                                <option>Divorciado(a)</option>
-                                <option>Viúvo(a)</option>
-
-                        </select><br>
-
-
-                        &nbsp;Nome do Pai:<br>
-                        <input class="form-botoes" type="text" name="" >
-                        <span>&nbsp;<input class="form-botoes" type="checkbox" name="">&nbsp;Marque caso não tenha</span>
-                        <br>
-
-                        &nbsp;Nome da Mãe:<br>
-                        <input class="form-botoes" type="text" name="" >
-                        <span>&nbsp;<input class="form-botoes" type="checkbox" name="">&nbsp;Marque caso não tenha</span>
-
-                        <br>
-
-                    </form>
-                    
-                </td>
-
-                <td width="65">
-                    
-                </td>
-
-                <td>
-                    
-                    <form>
-                        <br>
-                        &nbsp;CPF:<br>
-                        <input class="form-botoes" type="text" id="campo_cpf" placeholder="Digite seu CPF"><br>
-
-                        &nbsp;Telefone:<br>
-                        <input class="form-botoes" type="tel" id="fone" name="fone" placeholder="99 99999-9999"><br>
-
-                        &nbsp;RG:<br>
-                        <input class="form-botoes" type="text" id="campo_cpf" placeholder="9.999.999"><br>
-
-                        &nbsp;Email:<br>
-                        <input class="form-botoes" type="text" name="" placeholder="exemplo@exemplo.com"><br>
-
-                        &nbsp;Senha:<br>
-                        <input class="form-botoes" type="password" name="" placeholder="Senha"><br>
-
-                        <input id="submit-cadastro" type="submit" value="Cadastrar-se"><br>
-
-
-                    </form>
-
-                </td>
-        </table>
-
+                        <select class="form-botoes">
+                            <option>Solteiro(a)</option>
+                            <option>Casado(a)</option>
+                            <option>Divorciado(a)</option>
+                            <option>Viúvo(a)</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div id="final">
+                    <input class="form-botoes" id="login" type="text" name="" placeholder=" Email">
+        
+                    <input class="form-botoes" id="login" type="password" name="" placeholder=" Senha">
+        
+                    <a href="principal.html"><input id="submit-cadastro" type="submit" value="Sign Up"></a><br>
+                </div>
+            
+            </form>
+        </div>
     </main>
 </body>
+
 </html>
