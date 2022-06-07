@@ -1,12 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Sora', sans-serif;
+    color: black;
 }
-
 
 body{
     display: flex;
 
+}
+
+#logo{
+    display: flex;
+    margin: 0px auto;
+    margin-top: 50px;
+}
+
+#logo:hover{    
+    border: 2px solid grey;
+    border-radius: 25px;
+    margin-top: 36px;
+    padding: 5px 5px 5px 5px;
+}
+
+#cadastro:hover{
+    font-size: 17px;
+    transition: 0.4s all;
 }
 
 #tela-img{
@@ -30,17 +51,28 @@ main{
 #menu{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 35px;
+}
 
-    margin: 105px 0px;
+a{
+    text-decoration: none;
 }
 
 ul{
+    list-style: none;
+    margin-left: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+li{
+    display: inline-block;
+    padding: 20px;
+}
+
+
 
 #menu-texto{
     margin-left: 140px;
@@ -57,7 +89,6 @@ h1{
     font-size: 18px;
     margin-top: 5px;
     margin-bottom: 10px;
-    
 }
 
 p{
@@ -68,6 +99,11 @@ p{
 p>a{
     margin-left: 4px;
     color: #ff705f;
+}
+
+.botoes{
+
+    padding: 10px;
 }
 
 .btn_login{
@@ -83,7 +119,7 @@ p>a{
     padding: 12px 17.8px;
     margin: 100% 9px;
     font-size: 14px;
-    transition: 0.1s all;
+    transition: 0.5s all;
 }
 
 .btn_login_2{
@@ -102,7 +138,7 @@ p>a{
     padding: 12px 17px;
     margin: 100% 10.4px;
     font-size: 14px;
-    transition: 0.1s all;
+    transition: 0.5s all;
 }
 
 .image{
@@ -162,19 +198,35 @@ span{
     font-size: 15px;
     background: #ff705f;
     width: 482px;
+
+    /* Visual */
+    box-shadow: 3px 3px 4px #d8d2dd;
+    border: 1px white solid;
+    width: 470px;  
+    padding: 10px 5px;
+    border-radius: 3px;
+    border-top: 1px solid rgba(128, 128, 128, 0.219);
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+    margin-bottom: 20px;
 }
 
+#submit-botao:hover{
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    font-size: 14px;
+    width: 415px;
+    border-radius: 8px;
+    transition: 0.8s all;
+}
 
 
 /* IMAGENS */
-
 #imagens{
     position: relative;
-    bottom: -495px;
+    bottom: -620px;
     left: 100px;
-
 }
-
 
 #boneco{  
     height: 510px;

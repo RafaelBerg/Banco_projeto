@@ -7,13 +7,11 @@
 main{
     display: flex;
     justify-content: center;
-    margin: 80px 0px;
+    margin: 70px 0px;
     gap: 80px;
     flex-wrap: wrap;
 
 }
-
-
 
 h2{
     font-size: 22px;
@@ -31,46 +29,54 @@ p{
     flex-wrap: wrap;
   }
 
-  .card {
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 400px;
-    transition: all 0.3s ease-out;
-  }
-  .card:hover {
-    transform: translateY(-5px);
-    cursor: pointer;
-  }
-   
-  .card p {
-    color: #a3a5ae;
-    font-size: 16px;
-  }
-   
-  .image {
-    float: right;
-    max-width: 50px;
-    max-height: 50px;
-  }
-  .blue {
-    border-left: 3px solid #4895ff;
-  }
-   
-  .green {
-    border-left: 3px solid #3bb54a;
-  }
-   
-  .red {
-    border-left: 3px solid #b3404a;
-  }
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  margin: 20px;
+  width: 320px;
+  transition: all 0.3s ease-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+  
+.card p {
+  color: #a3a5ae;
+  font-size: 16px;
+}
+  
+.image {
+  float: right;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.blue {
+  border-left: 3px solid #4895ff;
+  border-right: 3px solid #4895ff;
+}
+  
+.green {
+  border-left: 3px solid #3bb54a;
+  border-right: 3px solid #3bb54a;
+}
+  
+.red {
+  border-left: 3px solid #e4091b;
+  border-right: 3px solid #e4091b;
+}
 .yellow{
-    border-left: 3px solid yellow;
+  border-left: 3px solid yellow;
+  border-right: 3px solid yellow;;
 }
 .orange{
-    border-left: 3px solid orangered;
+  border-left: 3px solid orangered;
+  border-right: 3px solid orangered;
 }
 .purple{
-    border-left: 3px solid purple;
+  border-left: 3px solid purple;
+  border-right: 3px solid purple;
 }
