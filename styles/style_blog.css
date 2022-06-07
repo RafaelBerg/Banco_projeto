@@ -1,3 +1,4 @@
+/*primeira tabela*/
 table{
     margin-left: 250px;
     width: 840px;
@@ -5,13 +6,16 @@ table{
     border-radius: 20px;
 
 }
-td{
+.espaçado{
     padding-left: 25px;
 }
 #imagem{
     width: 220px;
     border-radius: 20px;
     box-shadow: 7px 7px 17px 0px rgba(50, 50, 50, 0.22);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255, 0.356);
 }
 
 #beneficio{
@@ -21,10 +25,12 @@ td{
 .painel{
     width: 357px;
     height: 140px;
-    /*border: 1px solid red;*/
     border-radius: 15px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     transition: all 0.3s ease-out;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255, 0.356);
     
 }
 .painel:hover {
@@ -46,4 +52,20 @@ td{
 
 h3{
     color: #F3A857;
+}
+
+/*segunda tabela*/
+.espaçado{
+    padding-left: 30px;
+}
+
+.segunda{
+    width: 269px;
+    height: 190px;
+    border-radius: 15px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    transition: all 0.3s ease-out;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255,255,255, 0.356);
 }
