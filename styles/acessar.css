@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&family=Sora:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'Sora', sans-serif;
+
+}
+
+body{
+    background-color: rgb(236, 230, 230);
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 30px 0px;
+}
+
+main{
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    justify-content: center;
+}
+
+h1{
+    font-size: 30px;
+}
+
+hr{
+    width: 36%;
+    color: gray;
+    border: 1px white;
+    border-top: 1px solid gray; 
+    margin: 20px 0px 0px 15px;
+}
+
+#princip{
+    display: flex;
+}
+
+#conteudo{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+li{
+    font-size: 14px;
+    list-style: none;
+    padding: 8px 20px 8px 20px;
+}
+
+li:hover{
+    padding: 7px 20px 7px 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+
+a:visited{
+    color: white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
