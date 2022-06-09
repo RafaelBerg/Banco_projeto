@@ -1,20 +1,22 @@
 *{
     padding: 0px;
     margin: 0px;
-    /*border: 1px solid red;*/
 }
 
 main{
     display: flex;
     justify-content: center;
     margin: 70px 0px;
-    gap: 80px;
     flex-wrap: wrap;
 
 }
 
 h2{
     font-size: 22px;
+}
+
+h3{
+  font-size: 15px;
 }
 
 p{
