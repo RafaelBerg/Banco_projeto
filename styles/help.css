@@ -58,12 +58,29 @@ button{
     background: #e04d69;
     color: white;
     font-size: 17px;
+    margin-bottom: 100px;
 }
 
 button:hover{
     font-size: 16px;
     padding: 10px 29px;
-    margin: 44px 0px 20px 9px;
+    margin: 44px 0px 100px 9px;
     border-radius: 35px;
     transition: 0.5s all;
 }
+
+#rodape{
+    display: flex;
+
+}
+
+#rodape>h2{
+    margin-right: 20px;
+}
+
+h2{
+    color: rgba(128, 128, 128, 0.911);
+    line-height: 30px;
+    font-size: 13px;
+}
+
