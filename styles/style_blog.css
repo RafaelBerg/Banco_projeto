@@ -81,11 +81,13 @@ h3{
     transform: translateY(-5px);
     cursor: pointer;
 }
+
 h4{
     color: #f3aa5b;
     padding: 10px;
     font-size:medium;
 }
+
 .noticia_baixo{
     padding: 20px;
     font-size: small;

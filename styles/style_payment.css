@@ -2,24 +2,32 @@ main{
     box-shadow: 5px 5px 5px #d8d2dd;
     border-top: 1px solid rgba(128, 128, 128, 0.219);
     border-left: 1px solid rgba(128, 128, 128, 0.219);
-    border-radius: 20px;
+    border-radius: 5px;
     margin: 200px;
     margin-top: 100px;  
 }
-.alinhamento1{
+
+.alinhamento{
     padding-top: 10px;
     padding-left: 400px;
-    color: #f3aa5b;
+    color: #e04d69;
+}
+
+main>div>ul{
+    display: flex;
+    flex-direction: column;
+}
+
+details>p{
+    color: gray;
+    padding-bottom: 0px;
 }
 
 p{
     padding: 12px;
 }
-.alinhamento2{
+
+summary{
     color: #f3aa5b;
-    padding-left: 400px;
-    padding-top: 10px;
-}
-h4{
-    color: #CCA21B;
+    font-size: 18px;
 }
