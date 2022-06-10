@@ -1,0 +1,25 @@
+main{
+    box-shadow: 5px 5px 5px #d8d2dd;
+    border-top: 1px solid rgba(128, 128, 128, 0.219);
+    border-left: 1px solid rgba(128, 128, 128, 0.219);
+    border-radius: 20px;
+    margin: 200px;
+    margin-top: 100px;  
+}
+.alinhamento1{
+    padding-top: 10px;
+    padding-left: 400px;
+    color: #f3aa5b;
+}
+
+p{
+    padding: 12px;
+}
+.alinhamento2{
+    color: #f3aa5b;
+    padding-left: 400px;
+    padding-top: 10px;
+}
+h4{
+    color: #CCA21B;
+}
